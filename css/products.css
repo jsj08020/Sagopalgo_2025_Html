@@ -1,0 +1,96 @@
+
+/* 바디 */
+.section-top{
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+}
+.section-left img{
+    padding-left: 180px;
+    width: 450px;
+    height: 400px;
+}
+.section-right{
+    padding-top: 40px;
+    padding-left: 100px;
+}
+.product-cat{
+    color: gray;
+}
+.product{
+    font-size: 25px;
+}
+.product-price{
+    font-size: 25px;
+    font-weight: bold;
+}
+.product-intro{
+    padding-left: 150px;
+    font-weight: bold; 
+    font-size:25px;
+    padding-top: 50px;
+}
+.section-center{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top:30px;
+    gap:30px;
+}
+.productss{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.products-left img{
+    padding-left: 130px;
+    padding-bottom: 30px;
+    width: 200px;
+    height: 200px;
+}
+.products-right{
+    padding-top: 30px;
+}
+.section-bottom{
+    padding-left: 130px;
+    padding-bottom: 50px;
+}
+.section-bottom-info{
+    font-weight: bold;
+    font-size: 30px;
+}
+/* 푸터 */
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-color: aliceblue;
+}
+.bigfont{
+    font-weight: bold;
+    font-size: 20px;
+}
+.smallfont{
+    font-size: 13px;
+}
+.lastfont{
+    padding-top: 10px;
+    color: gray;
+}
+.footer-left{
+    padding-left: 130px;
+}
+.footer-right{
+    padding-right: 130px;
+}
+.foot p{
+    margin: 3px;
+}
+@media (max-width: 500px) {
+    
+}
+@media (max-width: 1224px) {
+    
+}
