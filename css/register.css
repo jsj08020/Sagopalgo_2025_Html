@@ -31,13 +31,15 @@
     width: 475px;
     height: 50px;
     background-color: white;
-    
+    outline: none;
+    border: 1px solid #ccc;
+    box-shadow: none;
 }
 
 .info-details{
     padding-right: 430px;
     font-size: 15px;
-
+    font-weight: 500;
 }
 
 .phone{
@@ -49,6 +51,9 @@
 .phone input{
     width: 346px;
     height: 51px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-shadow: none;
 }
 
 .phone button{
@@ -60,11 +65,19 @@
     background-color: white;
 }
 
+.phone button:hover{
+    color:white;
+    border-color: #0064ff;
+    background-color: #0064FF;
+    font-weight: bold;
+}
+
 .agree{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
 }
 
 .agree button{
@@ -73,12 +86,29 @@
     justify-content: left;
     width: 475px;
     height: 51px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: none;
+}
+
+.agree img{
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 7px;
+    width: 28px;
+    height: 28px;
+}
+
+.agree p{
+    font-weight: 600;
+    padding-bottom: 10px;
 }
 
 .agree-detail{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .agree-detail .check{
@@ -92,8 +122,57 @@
     height: 24px;
 }
 
-.check button{
-    background-color: white;
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    gap: 8px;
+  }
+
+.check p {
+    margin: 0;
+  }
+
+.check button {
+    background: none;
     border: none;
-    outline: none;
+    padding: 0;
+  }
+
+.check img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+
+.arrow{
+    display: flex;
+    padding-left: 200px;
 }
+
+.register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.register button:hover{
+    color:white;
+    border-color: #0064ff;
+    background-color: #0064FF;
+    font-weight: bold;
+}
+
+.register button{
+    width: 475px;
+    height: 50px;
+    font-size: 16px;
+    color:blue;
+    border-color: #0064ff;
+    background-color: white;
+    font-weight: bold;
+}
+
+  

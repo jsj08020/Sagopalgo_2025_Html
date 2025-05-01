@@ -1,0 +1,29 @@
+/* 푸터 */
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-color: aliceblue;
+}
+.bigfont{
+    font-weight: bold;
+    font-size: 20px;
+}
+.smallfont{
+    font-size: 13px;
+}
+.lastfont{
+    padding-top: 10px;
+    color: gray;
+}
+.footer-left{
+    padding-left: 130px;
+}
+.footer-right{
+    padding-right: 130px;
+}
+.foot p{
+    margin: 3px;
+}

@@ -2,6 +2,13 @@
     margin: 0;
 }
 
+.logo{
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
 section{
     display: flex;
     flex-direction: column;
@@ -13,6 +20,7 @@ section{
     font-size: 32px;
     font-weight: bold;
     padding-bottom: 30px;
+    padding-top: 40px;
 }
 
 .login-input input{
