@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sagopalgo</title>
+</head>
+<body style="display:flex; flex-direction: column;">
+    <nav style="background-color: white; display:flex; flex-direction:row;align-items:center;justify-content:space-between;border-bottom:1px solid">
+        <div class="nav-left" style="display:flex; flex-direction:row; padding-left: 50px;">
+            <p><img src="images/Logo (1).png" alt="로고" style="padding-left:30px"> </p>
+
+        </div>
+
+        <div class="nav-center" style="display:flex; flex-direction:row; align-items: center;">
+            <input placeholder="검색어를 입력하세요." style="border-radius:25px; width:450px; height:45px;padding-left: 25px;">
+            <button style="border:none; background-color:transparent">
+                <img src="images/검색.png" alt="검색" style="width:40px; height:40px;">
+            </button>
+        </div>
+
+        <div class="nav-right" style="display:flex; align-items:center;padding-right: 50px;">
+            <a href="./login.html">
+                <img src="images/로그인2.png" alt="로그인" style="width:60px; height:70px;"></a>
+            <a href="./my.html">
+                <img src="images/마이2.png" alt="마이" style="padding-left: 40px; padding-right:40px;width:50px; height:70px;"></a>
+            <a href="./sell.html">
+                <img src="images/판매2.png" alt="판매" style="width:45px; height:72px;"> </a>
+
+        </div>
+    </nav>
+    <section style="height:1600px;">
+        <div class="banner" style="height:400px; width:800x; margin:0 auto;margin-top:50px; background-color:white;">
+            <a><img src="images/포스터.png" 
+                alt ="포스터" style="height:400px; width:1024px;display:block;margin:0 auto; "></a> </div>
+                <div style="width:1024px; margin:0 auto; padding: 0px 20px; padding-top: 25px;">
+                    <h1 style="font-weight: bold; font-size: 25px; margin-bottom: 10px;">오늘의 추천상품</h1>
+                </div>
+                
+
+                
+        </div>
+
+        <div class="products" style="display:flex; flex-wrap:wrap; height:auto; width:1024px; margin:0 auto; padding-top:10px;">
+            <div class="product-card" style="padding-top:25px;">
+                <a><img src="https://m.diamall.co.kr/web/product/big/20200129/2e4a2ed164ee405921e74bed409ef5c5.jpg" 
+                    alt="목걸이" style="width:215px; height:200px; padding-top: 20px; padding-right: 50px;"></a>
+                <div>목걸이</div>
+                <div style="font-weight:bold;font-size: 20px;">130,000원</div>
+                <div style="font-size:10px;padding-top: 6px;">24시간 전</div>
+            </div>
+
+            <div class="product-card" style="padding-top:25px;">
+                <a><img src="
+                    https://image.msscdn.net/thumbnails/images/goods_img/20240117/3802778/3802778_17055625283468_big.jpg?w=1200" 
+                    alt="가방" style="width:215px; height:200px; padding-top: 20px; padding-right: 50px;"></a>
+                <div>가방</div>
+                <div style="font-weight:bold;font-size: 20px;">50,000원</div>
+                <div style="font-size:10px;padding-top: 6px;">12시간 전</div>
+            </div>
+
+            <div class="product-card" style="padding-top:25px;">
+                <a><img src="data:image/jpeg;base64,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" 
+                    alt="에어팟" style="width:215px; height:200px; padding-top: 20px; padding-right: 50px;"></a>
+                <div>에어팟</div>
+                <div style="font-weight:bold;font-size: 20px;">280,000원</div>
+                <div style="font-size:10px;padding-top: 6px;">4시간 전</div>
+            </div>
+
+            <div class="product-card" style="padding-top:25px;">
+                <a><img src="https://image.msscdn.net/thumbnails/images/goods_img/20240226/3899643/3899643_17090838476450_big.jpg?w=1200" 
+                    alt="신발" style="width:215px; height:200px; padding-top: 20px;"></a>
+                <div>신발</div>
+                <div style="font-weight:bold;font-size: 20px;">55,000원</div>
+                <div style="font-size:10px;padding-top: 6px;">3시간 전</div>
+            </div>
+
+            <div class="product-card" style="padding-top:25px;">
+                <a><img src="https://img.danawa.com/prod_img/500000/211/196/img/45196211_1.jpg?shrink=360:360&_v=20240401164031" 
+                    alt="구두" style="width:215px; height:200px; padding-top: 20px; padding-right: 50px;"></a>
+                <div>구두</div>
+                <div style="font-weight:bold;font-size: 20px;">35,000원</div>
+                <div style="font-size:10px;padding-top: 6px;">1시간 전</div>
+            </div>
+
+            <div class="product-card" style="padding-top:25px;">
+                <a><img src="https://img.29cm.co.kr/next-product/2023/06/05/1e148e9a69714ccb8ec3d00257848979_20230605173941.jpg?width=700&format=webp" 
+                    alt="팔찌" style="width:215px; height:200px; padding-top: 20px; padding-right: 50px;"></a>
+                <div>팔찌</div>
+                <div style="font-weight:bold;font-size: 20px;">150,000원</div>
+                <div style="font-size:10px;padding-top: 6px;">1초 전</div>
+            </div>
+            <div class="product-card" style="padding-top:25px;">
+                <a><img src="https://8tontruck.com/web/product/big/202309/e8fccf70198b40ca59f9325360ae051d.jpg" 
+                    alt="핸드폰케이스" style="width:215px; height:200px; padding-top: 20px; padding-right: 50px;"></a>
+                <div>핸드폰케이스</div>
+                <div style="font-weight:bold;font-size: 20px;">1,0000원</div>
+                <div style="font-size:10px;padding-top: 6px;">9시간 전</div>
+            </div>
+
+            <div class="product-card" style="padding-top:25px;">
+                <a><img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ultra-case-unselect-gallery-1-202409_GEO_KR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1724871389002" 
+                    alt="애플워치" style="width:215px; height:200px; padding-top: 20px;"></a>
+                <div>애플워치</div>
+                <div style="font-weight:bold;font-size: 20px;">280,000원</div>
+                <div style="font-size:10px;padding-top: 6px;">8시간 전</div>
+            </div>
+
+            <div class="product-card" style="padding-top:25px;">
+                <a><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FJZzIV%2FbtrUHRoFDfT%2F7UyTIxnKPc9cPxjSXPFki0%2Fimg.webp" 
+                    alt="프로틴" style="width:215px; height:200px; padding-top: 20px; padding-right: 50px;"></a>
+                <div>프로틴</div>
+                <div style="font-weight:bold;font-size: 20px;">35,000원</div>
+                <div style="font-size:10px;padding-top: 6px;">5시간 전</div>
+            </div>
+
+            <div class="product-card" style="padding-top:25px;">
+                <a><img src="https://img7.yna.co.kr/etc/inner/KR/2016/08/16/AKR20160816117651064_01_i_P4.jpg" 
+                    alt="총" style="width:215px; height:200px; padding-top: 20px; padding-right: 50px;"></a>
+                <div>총</div>
+                <div style="font-weight:bold;font-size: 20px;">130,000원</div>
+                <div style="font-size:10px;padding-top: 6px;">30초 전</div>
+            </div>
+
+            <div class="product-card" style="padding-top:25px;">
+                <a><img src="https://lomotive.com/web/product/big/202405/a03363b6a8df1ab3b2e7f24d127c2859.jpg" 
+                    alt="자전거거" style="width:215px; height:200px; padding-top: 20px; padding-right: 50px;"></a>
+                <div>자전거</div>
+                <div style="font-weight:bold;font-size: 20px;">850,000원</div>
+                <div style="font-size:10px;padding-top: 6px;">1시간 전</div>
+            </div>
+
+            <div class="product-card" style="padding-top:25px;">
+                <a><img src="https://oneroommaking.com/web/product/big/202306/ddb5c1f3186f4bfa5a990d8b98b12651.jpg" 
+                    alt="인형" style="width:215px; height:200px; padding-top: 20px;"></a>
+                <div>인형</div>
+                <div style="font-weight:bold; font-size: 20px;">12,000원</div>
+                <div style="font-size:10px;padding-top: 6px;">3시간 전</div>
+            </div>
+
+            <div style="width: 100%; text-align: center; margin-top: 50px; padding-bottom: 100px;">
+                <a href="./all-products.html" 
+                   style="display: inline-flex; align-items: center; justify-content: center; gap: 5px; padding: 10px 20px; font-size: 16px; text-decoration: none; color: black; transition: 0.3s; font-size: 20px;">
+                  <span class="text">더보기</span>
+                  <img src="images/더보기.png" alt="더보기" style="width: 15px; height: 15px;">
+                </a>
+            </div>
+              
+            <style>
+                a:hover .text {
+                  color: #0064FF; /* 글자만 파란색으로 바뀜 */
+                }
+                </style>
+              
+              
+            
+            
+              
+        </div>
+
+        
+        
+    </section>
+    
+    <footer style="width: 1024px; margin: 0 auto; display: flex; justify-content: space-between; padding: 50px 0;">
+
+        <div class="footer-left" style="width: 45%;">
+          <p style="font-weight: bold; font-size: 20px;">(주)SAGOPALGO</p>
+          <p>대표이사 : 멋쟁이사자</p>
+          <p>대표번호 : 02-4989-4989</p>
+          <p>통신판매업신고 : 제4989-천안-498900호</p>
+          <p>메일 : bulikelion4989@bu.ac.kr</p>
+        </div>
+      
+        <div class="footer-right" style="width: 45%;">
+          <p style="font-weight: bold; font-size: 20px;">고객센터 1234-4989</p>
+          <p>운영시간 : 평일 09:00 ~ 18:00</p>
+          <p>고객센터 바로가기</p>
+          <p style="font-size: 10px; margin-top: 20px;">
+            “SAGOPALGO” 상점의 판매상품을 제외한 모든 상품들에 대하여,<br>
+            (주)SAGOPALGO는 통신판매중개자로서 거래 당사자가 아니며 판매 회원과<br>
+            구매 회원 간의 상품거래 정보 및 거래에 관여하지 않고,<br>
+            어떠한 의무와 책임도 부담하지 않습니다.
+          </p>
+        </div>
+      
+    </footer>
+      
+      
+    
+</body>
+</html>
