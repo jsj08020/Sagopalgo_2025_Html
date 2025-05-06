@@ -136,6 +136,7 @@
     height: 50px; 
     line-height: normal;  /* 줄 높이 초기화 */
     margin-left: 135px;
+    border: 2px solid black; 
 }
 .section-left-2{
     display: flex;
@@ -276,4 +277,31 @@
 .foot p{
     margin: 3px;
 }
-
+@media (max-width: 500px) {
+    .section{
+        width: 995px;
+        height: 1500px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+        margin-top: 90px;
+    }
+    .section-left-12{
+        padding-top: 580px;
+    }
+    .section-right-1{
+        padding-left: 35px;
+    }
+    .section-right-2{
+        margin-left: 35px;
+    }
+    .section-right-5{
+        margin-left: 35px;
+    }
+    .search-input1{
+        width: 400px;
+    }
+    .section-right-4 p {
+        padding-top: 500px;
+        padding-bottom: 500px;
+    }
+}
