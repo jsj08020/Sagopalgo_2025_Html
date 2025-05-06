@@ -277,6 +277,7 @@
 .foot p{
     margin: 3px;
 }
+
 @media (max-width: 500px) {
     .section{
         width: 995px;
