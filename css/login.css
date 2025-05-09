@@ -9,6 +9,8 @@
     padding-top: 20px;
 }
 
+
+
 section{
     display: flex;
     flex-direction: column;
@@ -43,13 +45,18 @@ section{
 
 
 .checkbox{
+    width: 471px;
     padding-top: 20px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     padding-bottom: 40px;
 }
+.logged-in{
+    padding-right: 200px;
+}
+
 
 .login-button{
     border: none;
@@ -98,5 +105,89 @@ section{
     font-weight: bold;
     font-size: 24px;
     
+}
+
+.idpassword{
+    font-size: 20px;
+    color: #858585;
+    font-weight: bold;
+}
+
+@media (max-width:500px){
+    .logo img{
+        display: none;
+    }
+
+    .login-text{
+        padding-top: 100px;
+    }
+
+    .login-input span{
+        font-size: 20px;
+    }
+
+    .input input{
+        width: 250px;
+    }
+
+    .login-input input::placeholder{
+        font-size: 10px;
+        color: #777676;
+    }
+    
+    .login-input input{
+        margin: 5px;
+    }
+
+    .checkbox{
+        width: 254px;
+        display: flex;
+        align-items: center;
+        font-size: 8px;
+    }
+
+    .idpassword{
+        font-size: 8px;
+       
+    }
+
+    .logged-in{
+        padding-right: 0;
+        padding-right: 120px;
+    }
+
+    .login-button{
+        width: 254px;
+        height: 40px;
+    }
+
+    .login-button p{
+        font-size: 14px;
+    }
+
+    .snslogin{
+        margin-top: 0;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .fastlogin{
+        gap:0;
+        gap:15px;
+    }
+
+    .fastlogin img{
+        width: 31px;
+        height: 33px;
+    }
+
+    .register-button button{
+        width: 254px;
+        height: 40px;
+    }
+
+    .register-button p{
+        font-size: 14px;
+    }
 }
 

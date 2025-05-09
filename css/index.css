@@ -259,3 +259,12 @@
     margin: 3px;
 }
 
+@media (max-width: 500px) {
+    .content img{
+        display: none;
+    }
+
+    .logo-img{
+        display: none;
+    }
+}

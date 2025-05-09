@@ -1,27 +1,126 @@
 *{
     margin: 0;
 }
+
+.nav{
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 100px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.nav-left{
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+    padding-right: 20px;
+}
+.nav-center{
+    padding: 50px;
+    padding-right: 20px;
+}
+
+.nav-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+  
+.search-input {
+    border-radius: 25px;
+    width: 450px;
+    height: 45px;
+    padding-left: 25px;
+    border: 1px solid #ccc;
+}
+  
+.search-button {
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+}
+  
+.search-icon {
+    width: 40px;
+    height: 40px;
+}
+  
+.nav-right{
+    display: flex;
+    gap: 40px;
+    padding-left: 50px;
+    margin-right: 100px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-color: aliceblue;
+}
+.bigfont{
+    font-weight: bold;
+    font-size: 20px;
+}
+.smallfont{
+    font-size: 13px;
+}
+.lastfont{
+    padding-top: 10px;
+    color: gray;
+}
+.footer-left{
+    padding-left: 130px;
+}
+.footer-right{
+    padding-right: 130px;
+}
+.foot p{
+    margin: 3px;
+}
+
+
 .line{
     display: flex;
     flex-direction: row;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .line-1{
-    width: 200px;
-    border-right:1px solid #bfbfbf;
-    padding: 20px;
-    font-size: 14px;
+    width: 100px;
+    padding: 35px;
+    font-size: 12px;
     background: #f9f9f9;
+    border:1px solid #bfbfbf;
 }
 .line-1 h3 {
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 .line-1 li {
-    margin: 10px;
+    margin-bottom: 45px;
+    margin-right: 10px;
+    font-weight: bolder;
 }
 .line-1 .TEXT {
-    padding-left: 10px;
+    padding-left: 12px;
+    margin-bottom: 45px;
+    margin-left: 10px;
+    font-weight: bolder;
     color: #555;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.line-1 .TEXT:hover{
+    color: #3366ff;
 }
 .profile-area {
     flex: 1;
@@ -33,7 +132,7 @@
 .profile-info {
     margin-left: 20px;
 }
-  
+
 .profile-info h2 {
     font-size: 18px;
     margin-bottom: 6px;
@@ -41,55 +140,78 @@
 .trust {
     font-size: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 30px;
-  }
-  
-  
+}
+
+.label {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #3366ff;
+}
+
 .edit-btn {
     margin-left: auto;
-    padding: 8px 15px;
+    padding: 10px 50px;
     background: #3366ff;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
     cursor: pointer;
-    margin-top: 15px;
+    margin-bottom: 20px;
 }
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row; 
+}
+
+
 .mainpage{
     display: flex;
     flex-direction: column;
     margin-top: 30px;
     margin-left: 80px;
+
+
 }
 .my-products {
-    margin-top: 150px;
+    margin-top: 50px;
     margin-left: 80px;
+    margin-bottom: 200px;
 }
 .my-products h3 {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
-  
+
 .tabs {
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
+    justify-content: space-between;
+    border-bottom: 2px solid #bfbfbf;
 }
 .tabs button {
     padding: 6px 12px;
     border: none;
-    border-bottom: 2px solid transparent;
     background: none;
     cursor: pointer;
+    font-size: 20px;
+
 }
 .tabs .active {
-    border-bottom: 2px solid #000;
+    border-bottom: 3px solid #000;
     font-weight: bold;
 }
 .no-products {
     color: #555;
     font-size: 14px;
+    margin-top: 100px;
+    margin-left: 280px;
+
+
 }
 .a{
     margin-left: 30px;
