@@ -1,7 +1,10 @@
-body{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+*{
+    margin: 0;
+}
+
+
+.sell-sec{
+    margin-left: 150px;
 }
 .sell-sec1-1{
     border-bottom: 1px solid #bfbfbf;
@@ -17,6 +20,7 @@ body{
     margin-top: 0px;
     font-size: 15px;
     color: #505050;
+    margin-bottom: 20px;
 }
 .sell-sec2{
     display: flex;
@@ -29,9 +33,11 @@ body{
     gap:50px;
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 .sell-sec2-1 input{
     width: 1100px;
+    
 }
 .sell-sec2-2{
     display: flex;
@@ -39,6 +45,7 @@ body{
     font-size: 20px;
     font-weight: bold;
     gap:30px;
+    margin-bottom: 20px;
 }
 .sell-sec2-2 input{
     width: 1100px;
@@ -55,13 +62,22 @@ body{
 .sell-sec3-1{
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 .sell-sec4-1{
     font-size: 20px;
     font-weight: bold;
+    margin-top: 70px;
 }
 .sell-sec5{
     font-size: 20px;
+    margin-bottom: 50px;
+}
+input[type=checkbox] {
+   
+    transform: scale(2);
+    margin-left: 5px;
+    margin-right: 10px;
 }
 .sell-sec6-1{
     font-size: 20px;
@@ -91,4 +107,185 @@ body{
     font-size: 20px;
     color: #0064ff;
     font-weight: bold;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+  
+  
+.navbar::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(177, 177, 177);
+}
+  
+ 
+.nav-left, .nav-center, .nav-right {
+    max-width: 1200px;
+    width: 100%;
+}
+  
+  /* nav 내부 */
+.nav-left {
+    display: flex;
+    flex-direction: row;
+}
+  
+.logo-img {
+    padding-left: 30px;
+}
+  
+.nav-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+  
+.search-input {
+    border-radius: 25px;
+    width: 450px;
+    height: 45px;
+    padding-left: 25px;
+    border: 1px solid #ccc;
+}
+  
+.search-button {
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+}
+  
+.search-icon {
+    width: 40px;
+    height: 40px;
+}
+  
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+  
+.nav-icon {
+    display: block;
+}
+  
+.large-icon {
+    width: 60px;
+    height: 70px;
+}
+  
+.middle-icon {
+    width: 50px;
+    height: 70px;
+    margin: 0 40px;
+}
+  
+.small-icon {
+    width: 45px;
+    height: 72px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-color: aliceblue;
+}
+.bigfont{
+    font-weight: bold;
+    font-size: 20px;
+}
+.smallfont{
+    font-size: 13px;
+}
+.lastfont{
+    padding-top: 10px;
+    color: gray;
+}
+.footer-left{
+    padding-left: 130px;
+}
+.footer-right{
+    padding-right: 130px;
+}
+.foot p{
+    margin: 3px;
+}
+@media (max-width: 500px) {
+
+    .sell-sec{
+        margin-left: 20px;
+    }
+    .sell-sec1-1{
+        font-size: 50px;
+        margin-top: 10px;
+    }
+    .sell-sec1-2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .sell-sec1-3{
+        font-size: 25px;
+    }
+    .sell-sec2-1{
+        width: 1200px;
+        font-size: 30px;
+        gap: 77px;
+    }
+    .sell-sec2-2{
+        width: 1200px;
+        font-size: 30px;
+        gap: 50px;
+    }
+    .sell-sec2-1 input{
+        flex: 1;
+        height: 50px;
+    }
+    .sell-sec2-2 input{
+        flex: 1;
+        height: 50px;
+    }
+    .sell-sec3 textarea{
+        margin-right: 25px;
+        height: 300px;
+        margin-top: 30px;
+    }
+    .sell-sec3-1{
+        font-size: 30px;
+    }
+    .sell-sec4-1{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .sell-sec5{
+        font-size: 25px;
+    }
+    .sell-sec6-1{
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .profile{
+        width: 500px;
+        height: 400px;
+    }
+    
 }
