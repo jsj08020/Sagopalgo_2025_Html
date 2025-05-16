@@ -1,8 +1,103 @@
-*{
-    margin: 0;
+
+/* 바디 */
+.body-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
-
-
+  
+  /* 네비게이션 */
+.navbar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+  
+  
+.navbar::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(177, 177, 177);
+}
+  
+ 
+.nav-left, .nav-center, .nav-right {
+    max-width: 1200px;
+    width: 100%;
+}
+  
+  /* nav 내부 */
+.nav-left {
+    display: flex;
+    flex-direction: row;
+}
+  
+.logo-img {
+    padding-left: 10px;
+}
+  
+.nav-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+  
+.search-input {
+    border-radius: 25px;
+    width: 450px;
+    height: 45px;
+    padding-left: 25px;
+    border: 1px solid #ccc;
+}
+  
+.search-button {
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+}
+  
+.search-icon {
+    width: 40px;
+    height: 40px;
+}
+  
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+  
+.nav-icon {
+    display: block;
+}
+  
+.large-icon {
+    width: 60px;
+    height: 70px;
+}
+  
+.middle-icon {
+    width: 50px;
+    height: 70px;
+    margin: 0 40px;
+}
+  
+.small-icon {
+    width: 45px;
+    height: 72px;
+}
 .sell-sec{
     margin-left: 150px;
 }
@@ -199,14 +294,14 @@ input[type=checkbox] {
     width: 45px;
     height: 72px;
 }
-
+/* 푸터 */
 .foot{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; 
     padding-top: 35px;
     padding-bottom: 40px;
-    background-color: aliceblue;
+    gap: 200px;
 }
 .bigfont{
     font-weight: bold;
@@ -220,10 +315,10 @@ input[type=checkbox] {
     color: gray;
 }
 .footer-left{
-    padding-left: 130px;
+    padding-left: 20px;
 }
 .footer-right{
-    padding-right: 130px;
+    padding-right: 20px;
 }
 .foot p{
     margin: 3px;

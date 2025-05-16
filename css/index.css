@@ -43,7 +43,7 @@
 }
   
 .logo-img {
-    padding-left: 30px;
+    padding-left: 10px;
 }
   
 .nav-center {
@@ -147,9 +147,7 @@
 
 .banner img {
     width: 100%;
-    height: auto;
-    object-fit: contain;
-    display: block;
+
 }
 
   
