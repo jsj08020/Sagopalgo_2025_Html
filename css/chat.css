@@ -1,4 +1,13 @@
-/* 네비게이션 */
+
+/* 바디 */
+.body-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+  
+  /* 네비게이션 */
 
 .navbar {
     background-color: white;
@@ -36,7 +45,7 @@
 }
   
 .logo-img {
-    padding-left: 30px;
+    padding-left: 10px;
 }
   
 .nav-center {
@@ -250,6 +259,7 @@
     border: none;
     background: #F2F2F2;
 }
+/* 푸터 */
 .foot{
     display: flex;
     flex-direction: row;
