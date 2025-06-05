@@ -1,3 +1,4 @@
+
 /* 바디 */
 .body-container {
     width: 100%;
@@ -7,6 +8,7 @@
 }
   
   /* 네비게이션 */
+
 .navbar {
     background-color: white;
     display: flex;
@@ -286,6 +288,7 @@
 .foot p{
     margin: 3px;
 }
+
 
 @media (max-width: 500px) {
     .section{

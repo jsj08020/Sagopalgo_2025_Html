@@ -114,9 +114,8 @@
 .section-title {
     width: 90%;
     max-width: 1200px;
-    margin: 50px auto 30px auto;
     text-align: left;
-    padding-left: 30px; /* 추가: 배너와 같은 padding */
+    padding-bottom: 20px;
 }
   
 .section-title h1 {
@@ -163,6 +162,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 50px 30px; 
+    padding-bottom: 50px;
 }
   
   /* 상품 카드 */
@@ -195,36 +195,6 @@
 .product-time {
   font-size: 15px;
   margin-top: 5px;
-}
-
-.more-button-container {
-    width: 90%; 
-    max-width: 1200px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto 100px auto; 
-}
-  
-.more-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    padding: 10px 20px;
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-    transition: 0.3s;
-}
-  
-.more-button:hover .text {
-    color: #0064FF;
-}
-  
-.more-icon {
-    width: 15px;
-    height: 15px;
 }
 
 /* 푸터 */
